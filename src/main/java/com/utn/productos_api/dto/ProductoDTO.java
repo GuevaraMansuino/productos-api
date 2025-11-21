@@ -3,11 +3,9 @@ package com.utn.productos_api.dto;
 import com.utn.productos_api.model.Categoria;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
-@Data
+@Getter @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Schema(description = "DTO para crear o actualizar un producto")

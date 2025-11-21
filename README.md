@@ -62,7 +62,7 @@ com.utn.productos
 ### 1️⃣ Clonar el Repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/productos-api-springboot.git
+git clone https://github.com/GuevaraMansuino/productos-api
 cd productos-api-springboot
 ```
 
@@ -244,22 +244,31 @@ Content-Type: application/json
 
 ### 1. Swagger UI - Documentación Completa
 _(Aquí va tu captura de la interfaz de Swagger mostrando todos los endpoints)_
+![img_1.png](Capturas/img_1.1.png)
 
 ### 2. POST - Crear Producto Exitoso (201 Created)
 _(Captura mostrando la creación exitosa de un producto)_
+![img_2.png](Capturas/img_2.png)
 
 ### 3. GET - Listar Productos (200 OK)
 _(Captura mostrando la lista de productos)_
+![img_3.png](Capturas/img_3.png)
 
 ### 4. GET - Producto No Encontrado (404)
 _(Captura mostrando el error 404 con el mensaje apropiado)_
+![img_4.png](Capturas/img_4.png)
 
 ### 5. POST - Error de Validación (400 Bad Request)
 _(Captura mostrando errores de validación detallados)_
+![img_5.png](Capturas/img_5.png)
+
+### 6. DELETE - Eliminar Producto Correctamente (204 Deleted)
+(Captura mostrando la eliminacion del producto correctamente)
+![img.png](Capturas/img.png)
 
 ### 6. Consola H2 - Datos Persistidos
 _(Captura de la tabla productos en la consola H2 con datos)_
-![img.png](img.png)
+![img.png](Capturas/img_1.png)
 
 ---
 
